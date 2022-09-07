@@ -1,0 +1,6 @@
+Sample consist of web application, mongodb and the siege instance.
+Web app saves the requests base info to the database and returns all records from the collection.
+Siege instance should stress test the application.
+Results for the different test runs you can check in test-results.txt
+
+You are able to start up with docker-compose: ```docker-compose up```
